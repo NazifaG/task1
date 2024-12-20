@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border-style: none; */
+  background-color: black;
+  color: white;
+}
+.main_container {
+  height: 100vh;
+  min-height: 100vh;
+  font-family: "Montserrat", serif;
+  font-size: medium;
+}
+.form_container {
+  height: 80vh;
+  width: 35%;
+}
+.text{
+    color: #a9a9a9; 
+    font-size: 15px;
+}
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+.hover_icon:hover{
+    background-color: #008b45 !important;
+}
+@media (max-width: 806px) {
+  .radio_label {
+    width: 25%;
+    gap: 0.7rem;
+    font-size: clamp(8px, calc(0.7 * 25vw), 14px);
+  }
+  .text{
+    width: 90%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 698px) {
+  .radio_label {
+    width: 24%;
+    gap: 0.7rem;
+    font-size: clamp(8px, calc(0.7 * 24vw), 10px);
+  }
+  .text{
+    width: 100%;
+    font-size: 12px;
+  }
+ 
+}
+@media (max-width: 625px) {
+  .radio_label {
+    width: 23%;
+    gap: 0.7rem;
+    font-size: clamp(8px, calc(0.7 * 23vw), 10px);
+  }
+  .text{
+    width: 100%;
+    font-size: 9px;
+  }
+  
+}
+@media (max-width: 486px) {
+  .radio_label {
+    width: 22%;
+    gap: 0.7rem;
+    font-size: clamp(8px, calc(0.7 * 22vw), 10px);
+  }
+  .text{
+    width: 100%;
+    font-size: 8px;
+  }
+ 
+}
